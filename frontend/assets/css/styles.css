@@ -1,0 +1,38 @@
+:root {
+    --main-shadow: 0 0 7px #bababa;
+}
+
+.user {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: var(--main-shadow);
+}
+
+.user:empty {
+    display: none;
+}
+
+.list {
+    padding: 0;
+}
+
+.list__item {
+    list-style-type: none;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: var(--main-shadow);
+    margin-bottom: 10px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
